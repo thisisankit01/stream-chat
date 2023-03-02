@@ -1,0 +1,16 @@
+import { DetailedHTMLProps, forwardRef, InputHTMLAttributes } from "react";
+
+export const Input = forwardRef<
+  HTMLInputElement,
+  DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
+>(({ className, ...rest }, ref) => {
+  return (
+    <input
+      className={`py-1 px-2 border border-gray-400 focus:border-blue-500 outline-none rounded w-full ${className}`}
+      {...rest}
+      ref={ref}
+    />
+  );
+});
+
+//Refs are a function provided by React to access the DOM element and the React element that you might have created on your own
