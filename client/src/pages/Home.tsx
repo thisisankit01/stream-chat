@@ -79,7 +79,7 @@ function Channels({ loadedChannels }: ChannelListMessengerProps) {
       <h2 className="text-center text-slate-500">
         Made By{" "}
         <Link
-          to="https://www.thisisankit.netlify.app"
+          to="https://thisisankit.netlify.app"
           className="underline-offset-0"
           target="_blank"
         >
