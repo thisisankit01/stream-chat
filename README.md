@@ -72,7 +72,11 @@ If you find any issues or want to contribute, feel free to open a pull request o
 
 Images
 ------------
-![image](https://user-images.githubusercontent.com/93221382/222785854-e538c485-0e8e-4f8d-aaf7-ed9c398ef8b7.png)
+![image](https://user-images.githubusercontent.com/93221382/222787977-c4493db4-6089-4479-80ed-bcb5bb2cdfb3.png)
+![image](https://user-images.githubusercontent.com/93221382/222788539-8ea27cf3-9220-472e-99b4-f3e53521390a.png)
+![image](https://user-images.githubusercontent.com/93221382/222789254-2ac7f642-0240-436a-aebb-0d4255d1a134.png)
+
+
 
 
 License
