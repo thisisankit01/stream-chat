@@ -37,7 +37,7 @@ const Context = createContext<AuthContext | null>(null);
 //When the mutation function is called, it should make an HTTP request to the server and return a Promise that resolves to an AxiosResponse object.
 
 export function useAuth() {
-  return useContext(Context) as AuthContext; ////uses the useContext hook to access the AuthContext inside the Context
+  return useContext(Context) as AuthContext; //uses the useContext hook to access the AuthContext inside the Context
 }
 
 export function useLoggedInAuth() {
