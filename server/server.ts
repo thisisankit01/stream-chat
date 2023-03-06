@@ -11,3 +11,7 @@ app.register(cors, { origin: process.env.CLIENT_URL }); //cors origin requests, 
 app.register(userRoutes); // It registers the userRoutes function with the app, which defines the /signup route for user signups.
 
 app.listen({ port: parseInt(process.env.PORT!) }); //! makes sure the string is defined
+
+app.post("/", (req, res) => {
+  res.send({ message: "Hello" });
+});
